@@ -36,10 +36,10 @@
 #ifndef COMMON_H
 #define COMMON_H
 
-#include <sysfw_img_cfg.h>
-#include <devices.h>
-#include <hosts.h>
-#include <resasg_types.h>
+#include "soc/j721e/sysfw_img_cfg.h"
+#include "soc/j721e/devices.h"
+#include "soc/j721e/hosts.h"
+#include "soc/j721e/resasg_types.h"
 
 /**
  * Standard Linux Kernel integer types
