@@ -35,8 +35,8 @@
 #  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
-SOC ?= am65x
-CONFIG ?= evm
+SOC = j721e
+CONFIG = evm
 
 include soc/$(SOC)/Makefile
 
@@ -81,7 +81,7 @@ else
 KEY ?= ti-degenerate-key.pem
 endif
 
-CROSS_COMPILE ?= arm-none-linux-gnueabihf-
+CROSS_COMPILE = /usr/bin/arm-linux-gnueabihf-
 
 CFLAGS ?= \
 	-fno-builtin \
