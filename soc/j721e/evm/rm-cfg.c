@@ -33,10 +33,10 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "common.h"
-#include <hosts.h>
-#include <devices.h>
-#include <resasg_types.h>
+#include "../../../include/common.h"
+#include "../../../include/soc/j721e/hosts.h"
+#include "../../../include/soc/j721e/devices.h"
+#include "../../../include/soc/j721e/resasg_types.h"
 
 const struct boardcfg_rm_local j721e_boardcfg_rm_data = {
 	.rm_boardcfg = {

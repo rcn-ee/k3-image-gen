@@ -33,7 +33,7 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "common.h"
+#include "../../../include/common.h"
 
 const struct boardcfg_pm j721e_boardcfg_pm_data = {
 	/* boardcfg_abi_rev */
